@@ -92,7 +92,7 @@
 		<repository>
 			<id>deploymentRepo</id> <!-- Matches the id in settings.xml -->
 			<name>Nexus Repository</name>
-			<url>http://localhost:8081/repository/maven-snapshots/</url>
+			<url>http://nexus:8081/repository/maven-snapshots/</url>
 		</repository>
 	</distributionManagement>
 </project>
